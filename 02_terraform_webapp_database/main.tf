@@ -36,7 +36,7 @@ resource "azurerm_app_service" "web_app" {
 
   connection_string {
     name  = "Database"
-    type  = "SQLServer"
+    type  = "SQLAzure"
     value = "Server=some-server.mydomain.com;Integrated Security=SSPI"
   }
 }

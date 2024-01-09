@@ -11,7 +11,7 @@ variable location {
 }
 
 variable appservice_name {
-  default     = "terraform-02"
+  default     = "terraform-app-app"
   type        = string
   description = "The name for my web app"
 }
@@ -29,7 +29,7 @@ variable storageaccount_name {
 }
 
 variable sql_name {
-  default     = "terraform-sql"
+  default     = "terraform-sql-name-server"
   type        = string
   description = "The name for my Azure SQL"
 }
